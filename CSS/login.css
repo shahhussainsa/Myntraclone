@@ -1,0 +1,519 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+/*@import url('https://fontawesome.com/')*/
+/*@media screen and (min-width: 0px) and (max-width: 500px) {
+  header {
+    display: flex;
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #b6b1b1;
+    padding: 2px;
+    box-shadow: 2px 5px #EEEDE7
+  }
+}*/
+
+header {
+	display: flex;
+	background-color: white;
+	height: 80px;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #b6b1b1;
+    padding: 2px;
+    box-shadow: 2px 5px #EEEDE7;
+}
+body {
+	background-color: #FFE8F3;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  font-family: 'Avenir', sans-serif;
+}
+
+.myntra_home {
+	height: 45px;
+
+}
+.logo-container {
+	margin-left: 4%;
+/*	padding-top: 10px;*/
+}
+.action_bar{
+/*	margin-left: -50px;*/
+	margin-right: 4%;
+	display: flex;
+}
+.nav_bar{
+	display: flex;
+	min-width: 500px;
+	justify-content: space-evenly;
+}
+
+.nav_bar a{
+	display: flex;
+	font-size: 14px;
+	letter-spacing: .3px;
+	color: #282c3f;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 28px 0;
+	padding-inline: 15px;
+	border-bottom: 5px solid #ffffff;
+/*	padding-top: 20px;*/
+}
+.nav_bar a:hover{
+	border-bottom: 4px solid #FF4D4D;
+}
+.nav_bar a1{
+	display: flex;
+	font-size: 14px;
+	letter-spacing: .3px;
+	color: #282c3f;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 28px 0;
+	padding-inline: 15px;
+	border-bottom: 5px solid #ffffff;
+/*	padding-top: 20px;*/
+}
+.nav_bar a1:hover{
+	border-bottom: 4px solid #FF4DD3;
+}
+.nav_bar a2{
+	display: flex;
+	font-size: 14px;
+	letter-spacing: .3px;
+	color: #282c3f;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 28px 0;
+	padding-inline: 15px;
+	border-bottom: 5px solid #ffffff;
+/*	padding-top: 20px;*/
+}
+.nav_bar a2:hover{
+	border-bottom: 4px solid #F27900;
+}
+.nav_bar a3{
+	display: flex;
+	font-size: 14px;
+	letter-spacing: .3px;
+	color: #282c3f;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 28px 0;
+	padding-inline: 15px;
+	border-bottom: 5px solid #ffffff;
+/*	padding-top: 20px;*/
+}
+.nav_bar a3:hover{
+	border-bottom: 4px solid #FFB900;
+}
+.nav_bar a4{
+	display: flex;
+	font-size: 14px;
+	letter-spacing: .3px;
+	color: #282c3f;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 28px 0;
+	padding-inline: 15px;
+	border-bottom: 5px solid #ffffff;
+/*	padding-top: 20px;*/
+}
+.nav_bar a4:hover{
+	border-bottom: 4px solid #39918C;
+}
+
+
+.search_bar{
+	height: 40px;
+	min-width: 200px;
+	width: 30%;
+	display: flex;
+	align-items: center;
+
+/*	padding-top: 20px;*/
+}
+.search_icon{
+	box-sizing: content-box;
+	height: 20px;
+    padding: 10px;
+    background-color: #EEEDE7;
+    color: black;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input{
+	color: #696e79;
+	background-color: #f5f5f6;
+	flex-grow: 1;
+	height: 40px;
+	border: 0;
+	border-radius: 0 4px 4px 0;
+}
+.action_container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.action_container a{
+	text-decoration: none;
+	font-size: 14px;
+	margin: -7px;
+	margin-left: -50px;
+	margin-top: 2px;
+	margin-inline: 10px;
+	justify-content: space-evenly;
+	letter-spacing: .5px;
+  padding-inline: -10px;
+	padding-top: 8px;
+	color: #282c3f;
+	font-weight: 500;
+}
+
+.image{
+		display: flex;
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+	  margin-left: 37%;
+}
+
+.offer_image{
+    position: fixed;
+    margin-top: -170px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.log-in{
+	border-spacing: center;
+	margin: auto;
+	display: block;
+	justify-content: center;
+	margin-top: 170px;
+	padding-left:26px;
+	padding-right: 26px;
+	padding-bottom: 20px;
+	width: 400px;
+	height: 400px;
+	border: 1px;
+	background-color: white;
+	border-radius: 6px;
+}
+h3{
+	margin: 8px;
+	padding-top: 40px;
+}
+
+.form-group{
+	margin: 8px;
+	padding-top: 15px;
+}
+.input1{
+	height: 40px;
+	width: 300px;
+	padding-left: 20px;
+	justify-content: !important;
+}
+p{
+	margin: 15px 0 21px;
+	color: rgba(40,44,63,.8);
+	box-sizing: border-box;
+  color: rgba(40, 44, 63, 0.8);
+  display: block;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  height: 18.5625px;
+  line-height: 18.5714px;
+  margin-bottom: 21px;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+  color: #ff3c6f;
+  font-weight: 700;
+
+}
+.btn-con{
+	  margin: 5px;
+    cursor: pointer;
+    background-color: #ff3f6c;
+    text-align: center;
+    padding: 12px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 93%;
+}
+p1{
+	margin: 15px 0 21px;
+	color: rgba(40,44,63,.8);
+	box-sizing: border-box;
+  color: rgba(40, 44, 63, 0.8);
+  display: block;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  height: 18.5625px;
+  line-height: 18.5714px;
+  margin-bottom: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.mobileInputContainer {
+    position: relative;
+}
+.mobileInputContainer .form-group {
+    margin-bottom: 24px;
+}
+.form-group {
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.mobileInputContainer .form-group .mobileNumberInput {
+    padding-left: 62px;
+}
+
+.mobileInputContainer .form-group .form-control {
+    border: 1px solid #d4d5d9;
+    font-size: 14px;
+    padding: 11px 12px;
+    line-height: 16px;
+    height: auto;
+    color: #282c3f;
+}
+.mobileInputContainer .form-group input {
+    caret-color: #ff3f6c;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #3e4152;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: 0;
+}
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+}
+
+user agent stylesheet
+input:not([type="range"]):not([type="color"]):not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="file"]) {
+    writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+input[type="tel" i] {
+    padding: 1px 2px;
+}
+user agent stylesheet
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+}
+user agent stylesheet
+input {
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.mobileInputContainer .form-group .placeholderAlternative {
+    color: #94969f;
+    top: 10px;
+    left: 12px;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+}
+
+:not(input):not(textarea):not(button) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-drag: none;
+    -webkit-user-drag: none;
+}
+.mobileInputContainer .form-group .placeholderAlternative {
+    color: #94969f;
+    top: 10px;
+    left: 12px;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+}
+:not(input):not(textarea):not(button) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-drag: none;
+    -webkit-user-drag: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+}
+.mobileInputContainer .form-group .placeholderAlternative {
+    color: #94969f;
+    top: 10px;
+    left: 12px;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+}*/
