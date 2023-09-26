@@ -471,8 +471,9 @@ legend {
 	font-weight: 700;
 	color: black;
 }
-.foot1, .foot2 p {
+.foot11, .foot12 {
 	padding-right: 5px;
+	padding-top: 40px;
 	font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     color: #696b79;
 }
