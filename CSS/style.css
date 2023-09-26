@@ -45,7 +45,9 @@ header {
 .nav_bar{
 	display: flex;
 	min-width: 500px;
+	padding-inline: 5px;
 	justify-content: space-evenly;
+
 }
 
 .nav_bar a{
@@ -64,7 +66,29 @@ header {
 .nav_bar a:hover{
 	border-bottom: 4px solid #FF4D4D;
 }
+/*.code-box1 {
+    position: absolute;
+/*    top: 100%;*/
+  /*  left: 0;
+    width: 300px;
+    height: 405px;
+    margin-left: -120px;
+    margin-top: 21px;
+    padding-top: 8px;
+    color: blue;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none;
+    z-index: 1; 
+    opacity: 1;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+}*/
 
+/*.nav_bar a:hover .code-box1 {
+    display: block;
+}
+*/
 .nav_bar a1{
 	display: flex;
 	font-size: 14px;
@@ -111,7 +135,7 @@ header {
 /*	padding-top: 20px;*/
 }
 .nav_bar a3:hover{
-	border-bottom: 4px solid #FFB900;
+	border-bottom: 4px solid #FF0080;
 }
 .nav_bar a4{
 	display: flex;
@@ -234,7 +258,6 @@ header {
 
 .hover-element:hover .code-box {
     display: block;
-
 }
 
 /*.action_name{
@@ -424,6 +447,16 @@ legend {
     font-size: 16px;
     line-height: 25px;
 
+}
+.apps {
+	padding-inline: 20px;
+	margin-inline: 10px;
+}
+.desktop-iOSDownLink{
+	padding-right: 10px;
+	padding-top: 35px;
+	width: 150px;
+	height: 75px;
 }
 .para a{
 	text-decoration: none;
